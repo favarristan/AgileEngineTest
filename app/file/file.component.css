@@ -1,0 +1,31 @@
+:host {
+  background-color: #f1f0f0;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+}
+
+.file {
+  width: 600px;
+  background-color: #fff;
+  border: 1px solid #e4dede;
+  padding: 20px;
+}
+
+.syns {
+  margin-left: 10px;
+  width: 200px;
+  background-color: #fff;
+  border: 1px solid #e4dede;
+  padding: 20px;
+  min-height: 100px;
+}
+
+.syns ul {
+  list-style-type: none;
+  margin: 0;
+}
+
+.syns ul li {
+  cursor: pointer;
+}

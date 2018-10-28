@@ -1,0 +1,8 @@
+<div class="file" (mouseup)="selecText();">
+  {{text}}
+</div>
+<div class="syns">
+  <ul *ngFor='let sn of syn;'>
+    <li (mouseup)="replaceWord(sn.word)">{{ sn.word }}</li>
+  </ul>
+</div>
